@@ -26,8 +26,3 @@ def reducer(state, action):
     elif kind == REMOVE_LAYER:
         return {"layers": []}
     return state
-
-
-class View:
-    def render(self, state):
-        pass

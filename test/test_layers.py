@@ -11,9 +11,3 @@ from forest import layers
 def test_reducer(state, action, expect):
     result = layers.reducer(state, action)
     assert expect == result
-
-
-def test_render():
-    state = {}
-    view = layers.View()
-    view.render(state)
